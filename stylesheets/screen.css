@@ -1,0 +1,84 @@
+/*= little reset
+---------------------------------------------------------------------------- */
+body, head, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dd, dt, dl, form, fieldset, input, textarea, button {
+  border: none;
+  font-size: 1em;
+  font-weight: 300;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+img {
+  display: block; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+body {
+  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.5; }
+
+pre {
+  background-color: #D3DDBB;
+  color: #404040;
+  font-size: 1.3em;
+  margin: 5px 0;
+  padding: 15px; }
+
+.center {
+  text-align: center; }
+
+.m-wrapper {
+  margin: 0 auto;
+  max-width: 1180px;
+  min-width: 960px;
+  padding: 0 10px;
+  position: relative; }
+
+#main-header {
+  background-color: #446E86;
+  color: #D3DDBB;
+  padding: 20px 0; }
+
+.components {
+  border-bottom: 1px solid #3E9CA4;
+  padding: 50px 0; }
+
+.small {
+  font-size: 1.2em;
+  margin-bottom: 2em; }
+
+.base {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em; }
+
+.medium {
+  font-size: 2em;
+  line-height: 1.4em;
+  margin-bottom: 1.2em; }
+
+.large {
+  font-size: 2.6em;
+  line-height: 1.3em;
+  margin-bottom: 0.93em; }
+
+.xlarge {
+  font-size: 4.2em;
+  line-height: 1.25em;
+  margin-bottom: 0.58em; }
+
+.xxlarge {
+  font-size: 6.8em;
+  line-height: 1.15em;
+  margin-bottom: 0.36em; }
+
+.huge {
+  font-size: 11em;
+  line-height: 1.1em;
+  margin-bottom: 0.22em; }
