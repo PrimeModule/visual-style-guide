@@ -104,13 +104,12 @@ pre {
   .btn.btn-danger {
     background-color: #E16B5D; }
 
-ol {
-  font-size: 1.6em;
+.ordered-list {
   padding-left: 30px;
   counter-reset: sekcja; }
-  ol li {
+  .ordered-list li {
     position: relative; }
-    ol li:before {
+    .ordered-list li:before {
       counter-increment: sekcja;
       content: counters(sekcja,"") ".";
       display: block;
@@ -119,3 +118,10 @@ ol {
       top: 0;
       width: 25px;
       text-align: right; }
+
+.inline-list:after {
+  content: "";
+  display: table;
+  clear: both; }
+.inline-list li {
+  float: left; }

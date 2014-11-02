@@ -1,5 +1,4 @@
-ol {
-	font-size: 1.6em;
+.ordered-list {
 	padding-left: 30px;
 	counter-reset: sekcja;
 	li {
@@ -14,5 +13,15 @@ ol {
 			width: 25px;
 			text-align: right;
 		}
+	}
+}
+
+.unordered-list {
+}
+
+.inline-list {
+	@include clearfix;
+	li {
+		float: left;
 	}
 }
