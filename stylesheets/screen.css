@@ -125,3 +125,40 @@ pre {
   clear: both; }
 .inline-list li {
   float: left; }
+
+.icon {
+  background-image: url("/images/icons/example-icons.png");
+  display: inline-block; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .icon {
+      background-image: url("/images/icons/example-icons_2x.png");
+      background-size: 119px 20px; } }
+
+.i-marker {
+  height: 20px;
+  width: 12px; }
+
+.i-magnifier {
+  background-position: -13px 0;
+  height: 18px;
+  width: 18px; }
+
+.i-basket {
+  background-position: -32px 0;
+  height: 15px;
+  width: 22px; }
+
+.i-envelop {
+  background-position: -55px 0;
+  height: 12px;
+  width: 18px; }
+
+.i-calendar {
+  background-position: -74px 0;
+  height: 18px;
+  width: 17px; }
+
+.i-people {
+  background-position: -92px 0;
+  height: 18px;
+  width: 27px; }
