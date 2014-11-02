@@ -1,0 +1,18 @@
+ol {
+	font-size: 1.6em;
+	padding-left: 30px;
+	counter-reset: sekcja;
+	li {
+		position: relative;
+		&:before {
+			counter-increment: sekcja;
+			content: counters(sekcja, "") ".";
+			display: block;
+			left: -30px;
+			position: absolute;
+			top: 0;
+			width: 25px;
+			text-align: right;
+		}
+	}
+}
