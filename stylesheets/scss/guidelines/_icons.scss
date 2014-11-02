@@ -1,5 +1,5 @@
 .icon {
-	@include retina-image("/images/icons/example-icons", 119px 20px);
+	@include retina-image("../images/icons/example-icons", 119px 20px);
 	display: inline-block;
 }
 
