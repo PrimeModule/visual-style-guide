@@ -48,6 +48,21 @@ pre {
   border-bottom: 1px solid #3E9CA4;
   padding: 50px 0; }
 
+.icon-show li {
+  background-color: #D3DDBB;
+  height: 70px;
+  line-height: 50px;
+  margin-left: 1px;
+  width: 70px;
+  text-align: center; }
+  .icon-show li:first-child {
+    margin-left: 0; }
+  .icon-show li .icon {
+    vertical-align: middle; }
+  .icon-show li strong {
+    display: block;
+    line-height: 1.5em; }
+
 .small {
   font-size: 1.2em;
   margin-bottom: 2em; }
