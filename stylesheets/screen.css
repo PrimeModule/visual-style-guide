@@ -36,7 +36,6 @@ pre {
 .m-wrapper {
   margin: 0 auto;
   max-width: 1180px;
-  min-width: 960px;
   padding: 0 10px;
   position: relative; }
 
@@ -82,3 +81,25 @@ pre {
   font-size: 11em;
   line-height: 1.1em;
   margin-bottom: 0.22em; }
+
+.btn {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3em;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .btn.btn-primary {
+    background-color: #3E9CA4; }
+  .btn.btn-success {
+    background-color: #83B592; }
+  .btn.btn-info {
+    background-color: #C1CAAF; }
+  .btn.btn-warning {
+    background-color: #E5D8A4; }
+  .btn.btn-danger {
+    background-color: #E16B5D; }
