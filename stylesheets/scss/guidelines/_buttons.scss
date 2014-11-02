@@ -44,4 +44,17 @@
 			background-color: darken($color-danger, 3%);
 		}
 	}
+
+	&.btn-large {
+		font-size: 4.2em;
+		height: 60px;
+		line-height: 60px;
+		padding: 0 35px;
+	}
+	&.btn-small {
+		font-size: 1.3em;
+		height: 30px;
+		line-height: 30px;
+		padding: 0 15px;
+	}
 }

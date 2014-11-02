@@ -135,6 +135,16 @@ pre {
     background-color: #e16b5d; }
     .btn.btn-danger:hover {
       background-color: #df5f50; }
+  .btn.btn-large {
+    font-size: 4.2em;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 35px; }
+  .btn.btn-small {
+    font-size: 1.3em;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px; }
 
 .ordered-list {
   padding-left: 30px;
