@@ -1,5 +1,8 @@
+@import "mixins/box-sizing";
+
 @import "general";
 @import "header";
 @import "components";
 
 @import "guidelines/typography";
+@import "guidelines/buttons";

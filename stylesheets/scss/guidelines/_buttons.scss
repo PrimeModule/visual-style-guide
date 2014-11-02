@@ -1,0 +1,26 @@
+.btn {
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.3em;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	@include box-sizing(border-box);
+	// @include transition(all 0.3s ease-out);
+	&.btn-primary {
+		background-color: #3E9CA4;
+	}
+	&.btn-success {
+		background-color: #83B592;
+	}
+	&.btn-info {
+		background-color: #C1CAAF;
+	}
+	&.btn-warning {
+		background-color: #E5D8A4;
+	}
+	&.btn-danger {
+		background-color: #E16B5D;
+	}
+}
