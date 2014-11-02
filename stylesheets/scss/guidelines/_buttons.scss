@@ -2,12 +2,11 @@
 	border: 1px solid rgba(0, 0, 0, 0.05);
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	height: 40px;
 	line-height: 40px;
 	padding: 0 15px;
 	@include box-sizing(border-box);
-	// @include transition(all 0.3s ease-out);
 	&.btn-primary {
 		background-color: #3E9CA4;
 	}
