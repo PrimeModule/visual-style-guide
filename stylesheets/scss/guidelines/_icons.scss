@@ -1,0 +1,39 @@
+.icon {
+	@include retina-image("/images/icons/example-icons", 119px 20px);
+	display: inline-block;
+}
+
+.i-marker {
+	height: 20px;
+	width: 12px;
+}
+
+.i-magnifier {
+	background-position: -13px 0;
+	height: 18px;
+	width: 18px;
+}
+
+.i-basket {
+	background-position: -32px 0;
+	height: 15px;
+	width: 22px;
+}
+
+.i-envelop {
+	background-position: -55px 0;
+	height: 12px;
+	width: 18px;
+}
+
+.i-calendar {
+	background-position: -74px 0;
+	height: 18px;
+	width: 17px;
+}
+
+.i-people {
+	background-position: -92px 0;
+	height: 18px;
+	width: 27px;
+}
