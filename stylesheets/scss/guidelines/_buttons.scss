@@ -7,19 +7,54 @@
 	line-height: 40px;
 	padding: 0 15px;
 	@include box-sizing(border-box);
+	@include transition(background-color 0.3s ease-out);
+	&.btn-link {
+		border: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 	&.btn-primary {
-		background-color: #3E9CA4;
+		background-color: $color-primary;
+		&:hover {
+			background-color: darken($color-primary, 3%);
+		}
 	}
 	&.btn-success {
-		background-color: #83B592;
+		background-color: $color-success;
+		&:hover {
+			background-color: darken($color-success, 3%);
+		}
 	}
 	&.btn-info {
-		background-color: #C1CAAF;
+		background-color: $color-info;
+		&:hover {
+			background-color: darken($color-info, 3%);
+		}
 	}
 	&.btn-warning {
-		background-color: #E5D8A4;
+		background-color: $color-warning;
+		&:hover {
+			background-color: darken($color-warning, 3%);
+		}
 	}
 	&.btn-danger {
-		background-color: #E16B5D;
+		background-color: $color-danger;
+		&:hover {
+			background-color: darken($color-danger, 3%);
+		}
+	}
+
+	&.btn-large {
+		font-size: 4.2em;
+		height: 60px;
+		line-height: 60px;
+		padding: 0 35px;
+	}
+	&.btn-small {
+		font-size: 1.3em;
+		height: 30px;
+		line-height: 30px;
+		padding: 0 15px;
 	}
 }
